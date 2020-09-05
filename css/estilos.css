@@ -258,15 +258,13 @@ input::placeholder, textarea::placeholder {
     text-align: left;
 }
 
-.div .row {
+.div .btn-group {
     position: absolute;
-    width: 105%;
-    /*margin: 0px;*/
     bottom: 0;
+    left: 0;
 }
 
 #proyectos .div p {
-    /*padding: 10px 30px 0 20px;*/
     text-align: left;
 }
 
