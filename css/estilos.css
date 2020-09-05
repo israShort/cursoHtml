@@ -166,9 +166,13 @@ nav .active {
     /*padding: 8px;*/
 }
 
-.container input::placeholder, .container textarea::placeholder { /*preguntar por qué no toma el color de la fuente en el placeholder y sí acá*/
-    color: #1818186c;
+input::placeholder, textarea::placeholder {
+    color: #1818186c !important;
 }
+
+/*.container input::placeholder, .container textarea::placeholder { preguntar por qué no toma el color de la fuente en el placeholder y sí acá
+    color: #1818186c;
+}*/
 
 .container input:focus, .container textarea:focus {
     background-color: rgba(240, 241, 241, 0.938);
@@ -251,7 +255,6 @@ nav .active {
     font-weight: bold;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.438), #e20000);
     background-color: #e20000;
-    /*padding: 20px;*/
     text-align: left;
 }
 
@@ -291,6 +294,31 @@ nav .active {
     background-size: cover;
     background-position-y: -180px;
     background-position-x: 0;
+}
+
+@media (max-width: 700px) {/* Para mobile */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 768px) {/* Para tablet */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 1200px) {/* Para monitores mas grandes */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -180px;
+        background-position-x: 0;
+    }
 }
 
 #inicio main .destacado {
