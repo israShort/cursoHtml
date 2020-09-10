@@ -19,6 +19,12 @@ h1 {
     padding-top: 20px;*/
 }
 
+@media (max-width: 576px) {
+    .navbar-toggler {
+        background-color: #e20000;
+    }
+}
+
 /*header {
     padding-top: 20px;
 }*/
@@ -68,6 +74,21 @@ header .descarga-cv:hover, #proyectos header .descarga-cv:hover, #sobre-mi heade
     background-size: cover;
 }
 
+@media (max-width: 576px) {
+    #proyectos {
+        background-image: url("../images/fondo-proyectos.png");
+        background-repeat: no-repeat;
+        background-size: 105%;
+    }
+
+    #contacto {
+        background-image: url("../images/fondo-contacto.png");
+        background-repeat: no-repeat;
+        background-size: 105%;
+        background-position-y: bottom;
+    }
+}
+
 /*#contacto main, #proyectos main, #sobre-mi main {
     padding-top: 4%;
 }*/
@@ -115,6 +136,12 @@ header nav ul li {
     /*margin-right: 6px;*/
 }
 
+@media (max-width: 576px) {
+    .iconos i {
+        font-size: 22px;
+    }
+}
+
 .fa-whatsapp {
     font-size: 42px;
     position: fixed;
@@ -126,8 +153,21 @@ header nav ul li {
     color: white;
 }
 
+@media (max-width: 576px) {
+    .fa-whatsapp {
+        font-size: 36px;
+        position: initial;
+        right: 18px;
+        bottom: 0px;
+        background-color: transparent;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        color: #e20000;
+    }
+}
+
 nav .nav-link {
-    background-color: white;
+    background-color: none;
     color: #282828;
     /*padding: 3px 0 0 0;*/
     text-align: center;
@@ -196,6 +236,12 @@ input::placeholder, textarea::placeholder {
 
 .contacto-main {
     height: 88vh;
+}
+
+@media (max-width: 576px) {
+    .contacto-main {
+        height: auto;
+    }
 }
 
 /*fin contacto*/
@@ -275,6 +321,17 @@ input::placeholder, textarea::placeholder {
 #proyectos footer, #contacto footer, #inicio footer {
     position: relative;
     top: 25px;
+    /*width: max-content; ponerlo con una media query*/
+}
+
+@media (max-width: 576px) {
+    #contacto footer {
+        position: unset;
+    }
+
+    #contacto footer a, #contacto .iconos i, #contacto .fa-whatsapp {
+        color: #6a6a6a;
+    }
 }
 
 /*fin proyectos proyectizados*/
@@ -292,31 +349,6 @@ input::placeholder, textarea::placeholder {
     background-size: cover;
     background-position-y: -180px;
     background-position-x: 0;
-}
-
-@media (max-width: 700px) {/* Para mobile */
-    #inicio {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position-y: 0px;
-        background-position-x: 0;
-    }
-}
-@media (max-width: 768px) {/* Para tablet */
-    #inicio {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position-y: -100px;
-        background-position-x: 0;
-    }
-}
-@media (max-width: 1200px) {/* Para monitores mas grandes */
-    #inicio {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position-y: -180px;
-        background-position-x: 0;
-    }
 }
 
 #inicio main .destacado {
