@@ -164,6 +164,10 @@ header nav ul li {
         border-top-left-radius: 10px;
         color: #e20000;
     }
+
+    #inicio .fa-whatsapp {
+        color: white;
+    }
 }
 
 nav .nav-link {
@@ -351,38 +355,55 @@ input::placeholder, textarea::placeholder {
     background-position-x: 0;
 }
 
+@media (max-width: 576px) {
+    #inicio {
+        background-position-y: 0px;
+    }
+
+    #inicio footer {
+        position: initial;
+    }
+}
+
 #inicio main .destacado {
     text-decoration-line: underline;
+}
+
+#inicio .search {
+    border-radius: 30px;
+    border: 1px solid white;
 }
 
 #inicio h1 {
     color: white;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 27px;
     text-align: center;
-    border-radius: 30px;
-    border: 1px solid white;
-    /*padding: 10px 0 10px 0;
-    margin: 0 150px 0 150px;*/
 }
 
-/*#inicio .btn {
-    margin-top: 35px;
-    padding: 10px 24px;
-}*/
+#inicio .fa-search {
+    font-size: 40px;
+    color: white;
+}
 
-/*#inicio footer { preguntar si esto está bien
-    padding-top: 4%;
-}*/
+@media (max-width: 576px) {
+    #inicio .fa-search {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:576px) {
+    #inicio h1 {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+}
 
 /*fin del inicio*/
 
 /*sobre mi*/
-
-/*#sobre-mi .container {
-    margin-right: 120px;
-    margin-left: 120px;
-}*/
 
 #sobre-mi .main {
     background-image: url("../images/fondo-proyectos.png");
