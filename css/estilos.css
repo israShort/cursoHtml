@@ -72,7 +72,7 @@ header .descarga-cv:hover, #proyectos header .descarga-cv:hover, #sobre-mi heade
 #proyectos {
     background-image: url("../images/fondo-proyectos.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 @media (max-width: 576px) {
@@ -326,8 +326,18 @@ input::placeholder, textarea::placeholder {
 
 #proyectos footer, #contacto footer, #inicio footer {
     position: relative;
+}
+
+#contacto footer {
     top: 25px;
-    /*width: max-content; ponerlo con una media query*/
+}
+
+#proyectos footer {
+    top: 35px;
+}
+
+#inicio footer {
+    top: 10px;
 }
 
 @media (max-width: 576px) {
@@ -336,7 +346,7 @@ input::placeholder, textarea::placeholder {
     }
 
     #contacto footer a, #contacto .fa-whatsapp {
-        color: #6a6a6a;
+        color: black;
     }
 
     #contacto .iconos i {
@@ -429,10 +439,16 @@ input::placeholder, textarea::placeholder {
     }
 }
 
+@media (max-width: 768px) {
+    #sobre-mi .main img {
+        width: 85%;
+    }
+}
+
 #sobre-mi main .descarga-cv {
     /*padding: 13px 23px 13px 23px;*/
     border-radius: 120px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     font-style: normal;
     /*position: absolute;*/
@@ -459,6 +475,22 @@ input::placeholder, textarea::placeholder {
 
 }
 
+@media (max-width: 768px) {
+    
+    .tecnologias .col-6 {
+        max-width: 50%;
+    }
+
+}
+
+/*@media (max-width: 1024px) {
+    
+    .tecnologias .col-6 {
+        max-width: 52%;
+    }
+
+}*/
+
 .tecnologias h2 {
     color: white;
     font-weight: 500;
@@ -479,8 +511,16 @@ input::placeholder, textarea::placeholder {
 .personal i {
     color: white;
     background-color: #370a6d;
-    font-size: 68px;
+    font-size: 67px;
     border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+
+    .personal .fa-comment-alt {
+        width: 109.5%;
+    }
+
 }
 
 .bg-white {
