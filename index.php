@@ -59,7 +59,7 @@
                     <!--<h1 class="p-2">Hola mi nombre es <span class="destacado">Israel</span>, soy programador full-stack. | <i class="fas fa-search"></i></h1>-->
                 </div>
                 <div class="col-12 text-center mb-5">
-                    <a class="btn" href="proyectos.html">MIRÁ MI TRABAJO</a>
+                    <a class="btn" href="proyectos.php">MIRÁ MI TRABAJO</a>
                 </div>
             </div>
         </div>
