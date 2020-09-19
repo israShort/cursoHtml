@@ -51,8 +51,8 @@
                         <p class="mb-5 mt-4">Buenas!! Me presento, soy Israel Short. Tengo 23 años, soy de la localidad de Paso del Rey, Moreno. Actualmente estoy haciendo la carrera de Licenciatura en Sistemas de Información.<br><br>Me gusta todo lo referido a las PCs y programación. A continuación se vería algunas de mis aptitudes personales...</p>
                         <div class="row">
                             <div class="col-4 iconos">
-                                <a href="https://wa.me/5491122543823" target="_blank" title="Github"><i class="fab fa-github mr-2"></i></a>
-                                <a href="https://wa.me/5491122543823" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/israShort" target="_blank" title="Github"><i class="fab fa-github mr-2"></i></a>
+                                <a href="https://www.linkedin.com/in/israel-short-4b3779148/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
                             </div>
                             <div class="col-8 text-left align-self-center">
                                 <a href="files/CV_Israel_Short.pdf" target="_blank" class="descarga-cv px-2 px-sm-4 py-2 py-sm-3">DESCARGÁ MI CV</a>
@@ -243,7 +243,7 @@
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a href="" class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a class="btn px-4 py-2">VER EMPRESA</a>
                                 </div>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a href="" class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a class="btn px-4 py-2">VER EMPRESA</a>
                                 </div>
                             </div>
                         </div>
@@ -311,7 +311,7 @@
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a href="" class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a class="btn px-4 py-2">VER EMPRESA</a>
                                 </div>
                             </div>
                         </div>
@@ -338,7 +338,7 @@
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a href="" class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a class="btn px-4 py-2">VER EMPRESA</a>
                                 </div>
                             </div>
                         </div>
