@@ -1,3 +1,7 @@
+<?php
+    $pg = "inicio";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,33 +20,7 @@
 
 <body id="inicio">
     <header class="container">
-        <div class="pt-3 pb-3 pb-sm-5 px-0">
-            <nav class="navbar navbar-expand-md px-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto mb-2 mb-sm-0">
-                        <li class="nav-item pr-5 pl-2 pl-sm-0">
-                            <a class="nav-link active text-center text-sm-center pt-1" href="index.php">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item pr-5 pl-2 pl-sm-0">
-                            <a class="nav-link text-left text-sm-center pt-1" href="sobre-mi.php">Sobre mi</a>
-                        </li>
-                        <li class="nav-item pr-5 pl-2 pl-sm-0">
-                            <a class="nav-link text-left text-sm-center pt-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item pr-5 pl-2 pl-sm-0">
-                            <a class="nav-link text-left pt-1" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <a href="files/CV_Israel_Short.pdf" target="_blank" class="descarga-cv py-1 px-3 ml-2 ml-s-0">DESCARGÁ MI CV <i class="fas fa-arrow-down"></i></a>
-                </div>
-            </nav>
-        </div>
+        <?php include_once("menu.php"); ?>
     </header>
     <main class="container">
         <div class="row bloque-inicio align-items-end justify-content-center">
