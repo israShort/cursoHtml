@@ -51,11 +51,11 @@
                                 placeholder="Comentarios..."></textarea>
                         </div>
                     </form>
-                    <div class="row">
-                        <div class="col-sm-6 col-12 mt-2 mt-sm-0">
+                    <div class="d-inline">
+                        <div class="mt-2 mt-sm-0">
                             <div class="g-recaptcha" data-sitekey="6LcS_8QZAAAAAE55JZregxpFmO8ARGKf9oGiESHB"></div>
-                        </div>
-                        <div class="col-sm-6 col-12 mt-4 mt-sm-2 text-center text-sm-right"> <!--text-right para alinear a la derecha-->
+                        </div><!--col-sm-6 col-12-->
+                        <div class="mt-4 mt-sm-2 text-center text-sm-right"> <!--text-right para alinear a la derecha-->
                             <button type="submit" class="btn">ENVIAR</button>
                         </div>
                     </div>
