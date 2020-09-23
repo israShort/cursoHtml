@@ -140,7 +140,7 @@ header nav ul li {
 .fa-whatsapp {
     font-size: 42px;
     position: fixed;
-    right: 190px;
+    right: 23px;
     bottom: 0px;
     background-color: #370A6D;
     border-top-right-radius: 10px;
@@ -394,12 +394,12 @@ input::placeholder, textarea::placeholder {
 #inicio h1 {
     color: white;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 1.3rem;
     text-align: center;
 }
 
 #inicio .fa-search {
-    font-size: 40px;
+    font-size: 1.62rem;
     color: white;
 }
 

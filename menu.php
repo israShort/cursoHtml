@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container pt-3 pb-3 pb-sm-5 px-0">
+    <div class="container barra-nav pt-3 pb-3 pb-sm-5 px-0">
         <nav class="navbar navbar-expand-md px-0">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">

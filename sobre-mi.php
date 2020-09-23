@@ -327,7 +327,7 @@
     </div>
     <div class="footer">
         <div class="container">
-            <footer class="px-0 pb-sm-5">
+            <footer class="px-0 pb-sm-3">
                 <?php include_once("footer.php"); ?>
             </footer>
         </div>
