@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="row text-sm-left text-center mb-3 mb-sm-1 mb-lg-3 mb-xl-3">
+    <div class="row text-sm-left text-center pb-3 mb-sm-1 mb-lg-3 mb-xl-1 pb-xl-2">
         <div class="col-12 col-sm-2 ml-sm-3 pl-0 pr-1 pr-sm-0 iconos">
             <a href="https://github.com/israShort" target="_blank" title="Github"><i class="fab fa-github m-2 m-sm-1"></i></a>
             <a href="https://www.linkedin.com/in/israel-short-4b3779148/" target="_blank" title="Linkedin"><i class="fab fa-linkedin m-2 m-sm-1"></i></a>
