@@ -263,7 +263,7 @@
                 <div class="col-12 col-sm-2 col-xl-1 align-self-center text-center text-sm-left">
                     <i class="fas fa-graduation-cap align-self-center"></i>
                 </div>
-                <div class="col-12 col-sm-10 col-xl-11 align-self-center text-center text-sm-left">
+                <div class="col-12 col-sm-10 col-xl-11 pl-sm-4 align-self-center text-center text-sm-left">
                     <h2 class="m-0 align-self-center">Estudios</h2>
                 </div>
             </div>
