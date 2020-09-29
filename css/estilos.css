@@ -116,7 +116,7 @@ header nav ul li {
     color: white;
 }
 
-#proyectos footer a, #sobre-mi footer a {
+#proyectos footer a, #sobre-mi footer a, #respuesta-contacto footer a {
     color: red;
 }
 
@@ -324,7 +324,7 @@ input::placeholder, textarea::placeholder {
     text-decoration-line: underline;
 }
 
-#proyectos footer, #contacto footer, #inicio footer {
+#proyectos footer, #contacto footer, #inicio footer, #respuesta-contacto footer {
     position: relative;
 }
 
