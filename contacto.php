@@ -4,12 +4,20 @@
 
     $pg = "contacto";
 
+    function guardarCorreo($correo){
+        $archivo = fopen("mails.txt", "a+"); 
+        fwrite($archivo, $correo . ";\n"); //En linux \r
+        fclose($archivo);
+    }    
+
     if($_POST){ /* es postback */
         $nombre = $_POST["txtNombre"];
         $correo = $_POST["txtCorreo"];
         $asunto = $_POST["txtAsunto"];
         $mensaje = $_POST["txtMensaje"];
     
+        guardarCorreo($correo);
+
         if($nombre != "" && $correo != ""){
             $mail = new PHPMailer();
             $mail->IsSMTP();
