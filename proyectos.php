@@ -40,7 +40,7 @@
                             <a href="../abmclientes/index.php" target="_blank" class="btn">VER ONLINE</a>
                         </div>
                         <div class="col-6">
-                            <a href="https://github.com/israShort/cursoHtml.git" target="_blank" class="btn code" >CÓDIGO FUENTE</a>
+                            <a href="https://github.com/israShort/abmClientes.git" target="_blank" class="btn code" >CÓDIGO FUENTE</a>
                         </div>
                     </div>
                 </div>
