@@ -37,10 +37,10 @@
                     <p class="pl-3 pr-4 pt-2">Alta, Baja, modificación de un registro de clientes empleando:. Realizado en HTML, CSS, PHP, Bootstrap y Json.</p>
                     <div class="btn-group mb-3">
                         <div class="col-6">
-                            <button type="submit" class="btn">VER ONLINE</button> <!--arreglar el tamaño del bloque con height en vez de padding y position:absolute-->
+                            <a href="../abmclientes/index.php" target="_blank" class="btn">VER ONLINE</a>
                         </div>
                         <div class="col-6">
-                            <button type="submit" class="btn code" >CÓDIGO FUENTE</button>
+                            <a href="https://github.com/israShort/cursoHtml.git" target="_blank" class="btn code" >CÓDIGO FUENTE</a>
                         </div>
                     </div>
                 </div>
@@ -50,10 +50,10 @@
                     <p class="pl-3 pr-4 pt-2">Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</P>
                     <div class="btn-group mb-3">
                         <div class="col-6">
-                            <button type="submit" class="btn">VER PROYECTO</button>
+                        <a href="../plantilla/login.php" target="_blank" class="btn">VER PROYECTO</a>
                         </div>
                         <div class="col-6">
-                            <button type="submit" class="btn code">CÓDIGO FUENTE</button>
+                            <a href="https://github.com/israShort/plantilla.git" target="_blank" class="btn code" >CÓDIGO FUENTE</a>
                         </div>
                     </div>
                 </div>
