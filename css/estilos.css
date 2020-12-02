@@ -418,6 +418,12 @@ input::placeholder, textarea::placeholder {
     }
 }
 
+/*@media (max-width:10px) {
+    #inicio h1 {
+        font-size: 20px;
+    }
+}*/
+
 /*fin del inicio*/
 
 /*sobre mi*/
