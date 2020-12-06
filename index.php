@@ -19,7 +19,7 @@
 </head>
 
 <body id="inicio">
-    <header class="container">
+    <header>
         <?php include_once("menu.php"); ?>
     </header>
     <main class="container">

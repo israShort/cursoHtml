@@ -13,8 +13,7 @@
     if($_POST){ /* es postback */
         $nombre = $_POST["txtNombre"];
         $correo = $_POST["txtCorreo"];
-        $asunto = $_POST["txtAsunto"];
-        $mensaje = $_POST["txtMensaje"];
+        $mensaje = $_POST["txtComentarios"];
     
         guardarCorreo($correo);
 

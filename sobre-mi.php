@@ -33,7 +33,7 @@
                                 <a href="https://www.linkedin.com/in/israel-short-4b3779148/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
                             </div>
                             <div class="col-8 text-left align-self-center">
-                                <a href="files/CV_Israel_Short.pdf" target="_blank" class="descarga-cv px-2 px-sm-4 py-2 py-sm-3">DESCARGÁ MI CV</a>
+                                <a href="files/CV_Israel_Short.pdf" target="_blank" class="descarga-cv rounded-pill px-2 px-sm-4 py-2 py-sm-3">DESCARGÁ MI CV</a>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
         </div>
     </div>
     <div class="tecnologias pb-4 pb-sm-5">
-        <section class="container pt-4 pt-sm-4">
+        <section class="container pt-4">
             <div class="row my-5">
                 <div class="col-12 text-sm-left text-center">
                     <h2>Tecnologías de programación</h2>
@@ -199,7 +199,7 @@
                     <h2 class="m-0 align-self-center">Experiencia laboral</h2>
                 </div>
             </div>
-            <div class="row justify-content-center mt-5">
+            <div class="row justify-content-left mt-5">
                 <div class="col-sm-6 col-8 px-0 mb-4 mb-sm-0">
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
@@ -210,24 +210,24 @@
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
                             <div class="descr pt-3">
-                                <h4 class="m-0">Nombre del cargo</h4>
-                                <h5>Nombre de la empresa</h5>
-                                <h6 class="my-2">FEB 2016 - PRESENTE</h6>
+                                <h4 class="m-0">Analista de Sistemas Jr</h4>
+                                <h5>MLH Vernet</h5>
+                                <h6 class="my-2">AGO 2018 - DIC 2020</h6>
                                 <ul class="text-left pl-3">
-                                    <li>Lorem ipsum dolor sit amet, consectetuer elit.</li>
-                                    <li>Sed diam nonummy nibh euismod ut laoreet.</li>
-                                    <li>Dolore magna aliquam erat volutpat.</li>
+                                    <li>Desarrollo de programas en Excel.</li>
+                                    <li>Soporte técnico.</li>
+                                    <li>Manejo de datos y data entry en la base de datos.</li>
                                 </ul>
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a href="http://www.mlhvernet.com.ar/" target="_blank" class="btn px-4 py-2">VER EMPRESA</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-8 px-0">
+                <div class="col-sm-6 col-8 px-0"> <!-- descomentar el d-none en caso de agregar otra experiencia laboral-->
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -237,18 +237,18 @@
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
                             <div class="descr pt-3">
-                                <h4 class="m-0">Nombre del cargo</h4>
-                                <h5>Nombre de la empresa</h5>
-                                <h6 class="my-2">FEB 2016 - PRESENTE</h6>
+                                <h4 class="m-0">Desarrollador web</h4>
+                                <h5>DePC Suite</h5>
+                                <h6 class="my-2">DIC 2020 - PRESENTE</h6>
                                 <ul class="text-left pl-3">
-                                    <li>Lorem ipsum dolor sit amet, consectetuer elit.</li>
-                                    <li>Sed diam nonummy nibh euismod ut laoreet.</li>
-                                    <li>Dolore magna aliquam erat volutpat.</li>
+                                    <li>Desarrollador web.</li>
+                                    <li style="color: white;"></li>
+                                    <li style="color: white;"></li>
                                 </ul>
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank" class="btn px-4 py-2">VER EMPRESA</a>
                                 </div>
                             </div>
                         </div>
@@ -267,61 +267,88 @@
                     <h2 class="m-0 align-self-center">Estudios</h2>
                 </div>
             </div>
-            <div class="row justify-content-center mt-5">
+            <div class="row justify-content-left mt-5">
+
                 <div class="col-sm-6 col-8 px-0 mb-4 mb-sm-0">
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <rect width="100%" height="100%" fill="#e20000"></rect>
-                                <text x="17%" y="57%" fill="white">DePC</text>
+                                <text x="17%" y="57%" fill="white">DePC</text> <!-- logo del colegio -->
                             </svg></b>
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
                             <div class="descr pt-3">
-                                <h4 class="m-0">Nombre del curso</h4>
-                                <h5>DePC</h5>
-                                <h6 class="my-2">FEB 2016 - PRESENTE</h6>
+                                <h4 class="m-0">Secundario</h4>
+                                <h5>Colegio Dalmacio Velez Sarsfield</h5>
+                                <h6 class="my-2">2009 - 2014</h6>
                                 <ul class="text-left pl-3">
-                                    <li>Lorem ipsum dolor sit amet, consectetuer elit.</li>
-                                    <li>Sed diam nonummy nibh euismod ut laoreet.</li>
-                                    <li>Dolore magna aliquam erat volutpat.</li>
+                                    <li>Egresado en "Bachiller en Economía y Ciencias sociales"</li>
                                 </ul>
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a href="https://www.facebook.com/ColegioVelezSarsfield1/" target="_blank" class="btn px-4 py-2">VER INSTITUCIÓN</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-6 col-8 px-0">
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <rect width="100%" height="100%" fill="#e20000"></rect>
-                                <text x="17%" y="57%" fill="white">DePC</text>
+                                <text x="17%" y="57%" fill="white">DePC</text> <!-- logo de la unlu -->
                             </svg></b>
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
                             <div class="descr pt-3">
-                                <h4 class="m-0">Nombre del curso</h4>
-                                <h5>DePC</h5>
-                                <h6 class="my-2">FEB 2016 - PRESENTE</h6>
+                                <h4 class="m-0">Universitario</h4>
+                                <h5>Universidad Nacional de Luján</h5>
+                                <h6 class="my-2">MAR 2015 - PRESENTE</h6>
                                 <ul class="text-left pl-3">
-                                    <li>Lorem ipsum dolor sit amet, consectetuer elit.</li>
-                                    <li>Sed diam nonummy nibh euismod ut laoreet.</li>
-                                    <li>Dolore magna aliquam erat volutpat.</li>
+                                    <li>Carrera de Lic. en Sistemas de Información.</li>
+                                    <li style="color: white;"></li>
                                 </ul>
                             </div>
                             <div class="row pr-4 pb-4">
                                 <div class="col-12 text-right">
-                                    <a class="btn px-4 py-2">VER EMPRESA</a>
+                                    <a href="http://www.unlu.edu.ar/" target="_blank" class="btn px-4 py-2">VER INSTITUCIÓN</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-sm-6 col-8 px-0 pt-3">
+                    <div class="row mx-2 bg-white">
+                        <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
+                            <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <rect width="100%" height="100%" fill="#e20000"></rect>
+                                <text x="17%" y="57%" fill="white">DePC</text> <!-- logo de depc -->
+                            </svg></b>
+                        </div>
+                        <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
+                            <div class="descr pt-3">
+                                <h4 class="m-0">Curso</h4>
+                                <h5>DePC Suite</h5>
+                                <h6 class="my-2">AGO 2020 - PRESENTE</h6>
+                                <ul class="text-left pl-3">
+                                    <li>Curso de programación web Full Stack.</li>
+                                    <li style="color: white;"></li>
+                                </ul>
+                            </div>
+                            <div class="row pr-4 pb-4">
+                                <div class="col-12 text-right">
+                                    <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank" class="btn px-4 py-2">VER INSTITUCIÓN</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </div>

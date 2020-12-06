@@ -26,7 +26,7 @@
                 <div class="col-sm-7 col-12">
                     <h1>Mis proyectos</h1>
                     <div class="my-2 mt-sm-4 mb-sm-5">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque harum, molestias, nam mollitia sapiente quaerat aperiam et dolore rem atque quos neque odio consequatur magni molestiae! Nam, id sapiente. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aut voluptas ex velit atque excepturi adipisci nisi sed?</p>
+                        <p>Estos son algunos de los proyectos que tengo realizados de manera no profesional. Programados mediante las diferentes técnicas de programación Web actuales, tales como Laravel, PHP, Javascript, etc.<br><br>Que lo disfrutes!</p>
                     </div>
                 </div>
             </div>
