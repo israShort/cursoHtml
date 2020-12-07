@@ -33,12 +33,12 @@
                                 <a href="https://www.linkedin.com/in/israel-short-4b3779148/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
                             </div>
                             <div class="col-8 text-left align-self-center">
-                                <a href="files/CV_Israel_Short.pdf" target="_blank" class="descarga-cv rounded-pill px-2 px-sm-4 py-2 py-sm-3">DESCARGÁ MI CV</a>
+                                <a href="files/CV_Israel_Short.pdf" download="CV Israel Short.pdf" class="descarga-cv rounded-pill px-2 px-sm-4 py-2 py-sm-3">DESCARGÁ MI CV</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-12 text-center">
-                        <img src="images/me.png" alt="">
+                        <img src="images/me.png" alt="" style="filter: drop-shadow(5px 5px 10px #444); -webkit-transition:all .3s ease;">
                     </div>
                 </div>
             </main>

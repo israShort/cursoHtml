@@ -429,6 +429,10 @@ input::placeholder, textarea::placeholder {
     /*padding-bottom: 100px;*/
 }
 
+#sobre-mi .main main img:hover {
+    transform:scale(1.01);
+}
+
 @media (max-width: 576px) {
     #sobre-mi .main img {
         width: 75%;

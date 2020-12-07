@@ -19,7 +19,7 @@
                     <a class="nav-link pt-1 <?php echo $pg == "contacto" ? "active text-sm-center" : "text-left text-sm-center"; ?>" href="contacto.php">Contacto</a>
                 </li>
             </ul>
-            <a href="files/CV_Israel_Short.pdf" target="_blank" class="descarga-cv rounded-pill py-1 px-3">DESCARGÁ MI CV <i class="fas fa-arrow-down"></i></a>
+            <a href="files/CV_Israel_Short.pdf" download="CV Israel Short.pdf" class="descarga-cv rounded-pill py-1 px-3">DESCARGÁ MI CV <i class="fas fa-arrow-down"></i></a>
         </div>
     </nav>
 </div>
