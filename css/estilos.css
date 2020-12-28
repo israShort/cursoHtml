@@ -318,8 +318,15 @@ input::placeholder, textarea::placeholder {
     text-decoration-line: underline;
 }
 
-#proyectos footer, #contacto footer, #inicio footer, #respuesta-contacto footer {
+#proyectos footer, #contacto footer, #inicio footer {
     position: relative;
+}
+
+#respuesta-contacto footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 #contacto footer {

@@ -15,47 +15,40 @@
         $correo = $_POST["txtCorreo"];
         $mensaje = $_POST["txtComentarios"];
     
-        guardarCorreo($correo);
+        //guardarCorreo($correo);
 
         if($nombre != "" && $correo != ""){
-            $mail = new PHPMailer();
+            $mail = new PHPMailer(true);
+
             $mail->IsSMTP();
+            $mail->SMTPDebug = 0;
             $mail->SMTPAuth = true;
-            $mail->Host = "mail.dominio.com"; // SMTP a utilizar
-            $mail->Username = "info@dominio.com.ar"; // Correo completo a utilizar
-            $mail->Password = "aqui va la clave de tu correo";
-            $mail->Port = 25;
-            $mail->From = "info@dominio.com.ar"; //Desde la cuenta donde enviamos
-            $mail->FromName = "Tu nombre a mostrar";
+            $mail->SMTPSecure = 'ssl';
+            $mail->Host = "smtp.gmail.com"; // SMTP a utilizar
+            $mail->Port = 465;
+            $mail->Username = "israshort@gmail.com";
+            $mail->Password = "labeLmarX4565472";
+            $mail->setFrom("israshort@gmail.com", "Isra Short");
+            $mail->Subject = utf8_decode('Contacto Página Web');
             $mail->IsHTML(true);
-            $mail->SMTPOptions = array(
-                        'ssl' => array(
-                            'verify_peer' => false,
-                            'verify_peer_name' => false,
-                            'allow_self_signed' => true
-                        )
-                    );
-    
-            //Destinatarios
+
             $mail->addAddress($correo);
-            $mail->addBCC("otrocorreo@gmail.com"); //Copia oculta
-            $mail->Subject = utf8_decode("Contacto página Web");
+
             $mail->Body = "Recibimos tu consulta, te responderemos a la brevedad.";
-            /*if(!$mail->Send()){
-                $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
-            }*/
-            $mail->ClearAllRecipients(); //Borra los destinatarios
+            $mail->send();
+
     
             //Envía ahora un correo a nosotros con los datos de la persona
-            $mail->addAddress("info@dominio.com.ar");
+            $mail->ClearAllRecipients();
+            $mail->addAddress("israshort@gmail.com");
             $mail->Subject = utf8_decode("Recibiste un mensaje desde tu página Web");
-            $mail->Body = "Te escribio $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
+            $mail->Body = "Te escribio $nombre, cuyo correo es $correo, con el siguiente mensaje:<br><br>$mensaje";
            
-            //if($mail->Send()){ /* Si fue enviado correctamente redirecciona */
+            if($mail->Send()){ /* Si fue enviado correctamente redirecciona */
                 header('Location: confirmacion-envio.php');
-            /*} else {
+            } else {
                 $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
-            }*/ 
+            }
         } else {
             $msg = "Complete todos los campos";
         }
@@ -93,11 +86,7 @@
             </div>
             <div class="row mt-3 mt-sm-4">
                 <div class="col-sm-5 col-12 pr-3 pr-sm-5">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsa aliquam itaque autem!
-                        Repellendus pariatur, ipsa itaque enim natus amet culpa reprehenderit? Libero, dolore quo. Quis
-                        reiciendis cum qui ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-                        voluptatum in dignissimos reiciendis, enim possimus cum praesentium ab illo, voluptas nulla aliquam
-                        iure commodi aliquid ex doloribus magnam ipsa sit.</p>
+                    <p>Hola! Podés comunicarte conmigo a través del siguiente formulario y dejar tus dudas o comentarios que tengas.</p>
                 </div>
                 <div class="col-sm-6 col-12 offset-sm-1">
                     <form action="" method="POST">
