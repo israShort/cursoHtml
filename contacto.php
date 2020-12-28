@@ -27,7 +27,6 @@
             $mail->Host = "smtp.gmail.com"; // SMTP a utilizar
             $mail->Port = 465;
             $mail->Username = "israshort@gmail.com";
-            $mail->Password = "labeLmarX4565472";
             $mail->setFrom("israshort@gmail.com", "Isra Short");
             $mail->Subject = utf8_decode('Contacto Página Web');
             $mail->IsHTML(true);
