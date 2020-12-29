@@ -227,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-8 px-0"> <!-- descomentar el d-none en caso de agregar otra experiencia laboral-->
+                <div class="col-sm-6 col-8 px-0 d-none"> <!-- descomentar el d-none en caso de agregar otra experiencia laboral-->
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
