@@ -199,13 +199,13 @@
                     <h2 class="m-0 align-self-center">Experiencia laboral</h2>
                 </div>
             </div>
-            <div class="row justify-content-left mt-5">
+            <div class="row justify-content-center justify-content-lg-start mt-5">
                 <div class="col-sm-6 col-8 px-0 mb-4 mb-sm-0">
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <rect width="100%" height="100%" fill="#fffff"></rect>
-                                <text x="17%" y="57%" fill="white">LOGO</text>
+                                <text x="17%" y="57%" fill="white">MLH</text>
                             </svg></b>
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
@@ -267,14 +267,14 @@
                     <h2 class="m-0 align-self-center">Estudios</h2>
                 </div>
             </div>
-            <div class="row justify-content-left mt-5">
+            <div class="row justify-content-center justify-content-lg-start mt-5">
 
                 <div class="col-sm-6 col-8 px-0 mb-4 mb-sm-0">
                     <div class="row mx-2 bg-white">
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <rect width="100%" height="100%" fill="#e20000"></rect>
-                                <text x="17%" y="57%" fill="white">DePC</text> <!-- logo del colegio -->
+                                <text x="17%" y="57%" fill="white">Vélez</text> <!-- logo del colegio -->
                             </svg></b>
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">
@@ -300,7 +300,7 @@
                         <div class="col-12 col-sm-3 col-md-4 col-lg-3 pl-sm-0 pt-3 pt-sm-0 text-center">
                             <b><svg class="bd-placeholder-img rounded-circle mt-sm-4 ml-sm-4" width="100" height="100" preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <rect width="100%" height="100%" fill="#e20000"></rect>
-                                <text x="17%" y="57%" fill="white">DePC</text> <!-- logo de la unlu -->
+                                <text x="17%" y="57%" fill="white">UNLu</text> <!-- logo de la unlu -->
                             </svg></b>
                         </div>
                         <div class="col-12 col-sm-9 col-md-12 col-lg-9 align-self-center">

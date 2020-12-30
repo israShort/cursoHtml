@@ -19,10 +19,10 @@
 </head>
 
 <body id="inicio">
-    <header>
-        <?php include_once("menu.php"); ?>
-    </header>
     <main class="container">
+        <header>
+            <?php include_once("menu.php"); ?>
+        </header>
         <div class="row bloque-inicio align-items-end justify-content-center">
             <div class="row justify-content-center">
                 <div class="col-10 mb-3 mb-sm-5">
